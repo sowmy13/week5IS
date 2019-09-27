@@ -16,8 +16,62 @@ doubled = doublethisgive(5)
 print(doubled)
 
 
-def multiplythese(first):
-    return first*first
+def multiplythese(a,b):
+    print(a)
+    print(b)
+    print("first number is {0} and second is {1} ".format(a,b))
+    print(str(a) +  " " + str(b))
+    return a*b
+    
+print(multiplythese(3,5))
 
-ans = multiplythese(5)
-print(ans)
+
+def isFrance(word):
+    if word =="France":
+        print("Oui")
+        return True
+    else:
+        print("non monsieur")
+        return False
+    
+print("the result is : " + str(isFrance("Germany")))  
+
+
+
+def xtimes2y(a,b):
+    return a * doublethisgive(b)
+
+
+print("The result is {0} ".format(xtimes2y(2,2)))
+
+
+def doubleto100(num):
+    doubledvalue = num
+    n = 0
+    while  doubledvalue <= 100:
+        n += 1
+        doubledvalue = doubledvalue*2
+    return n    
+
+print("Number of times doubled : {0} ".format(doubleto100(80)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
