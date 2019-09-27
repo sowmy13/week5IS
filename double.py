@@ -56,6 +56,16 @@ def doubleto100(num):
 print("Number of times doubled : {0} ".format(doubleto100(80)))
 
 
+def doubleto100recursion(num):
+    #check if i am in base case
+    if num > 100:
+        return 0
+        
+    return doubleto100recursion(2*num) + 1
+
+
+print("Number of recursions : {0} ".format(doubleto100recursion(10)))
+
 
 
 
