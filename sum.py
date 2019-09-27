@@ -11,7 +11,7 @@ if len(sys.argv) != 3:
 first = int(sys.argv[1])
 second= int(sys.argv[2])
 
-print("[0] and [1]".format(first, second))
+print("{0} and {1}".format(first, second))
 
 #result = first+second
 #print(result)
